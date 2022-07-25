@@ -1,0 +1,48 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: trebuchet MS, Arial, Helvetica, sans-serif;
+}
+header{
+    
+    padding: 10px;
+    background: purple;
+    border: 1px solid purple;
+    margin: 0 auto;
+}
+.header-name{
+    text-decoration: none;
+    text-align: center;
+    
+}
+.logo{
+    color: aliceblue;
+    
+}
+.left{
+    width: 250px;
+    height: 85vh;
+    border: 1px solid blue;
+    background: blue;
+    float: left;
+    font-size: 30px;
+}
+.tabela{
+    font: 40px ;
+    padding: 15px;
+    margin:20px;
+    list-style: none;
+    color: aliceblue;
+}
+.card1{
+    border: 1px solid black;
+    width: 250px;
+    height: 280px;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}

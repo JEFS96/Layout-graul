@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 
+@media{
+
+}
 }
 body{
     font-family: trebuchet MS, Arial, Helvetica, sans-serif;
@@ -25,7 +28,7 @@ header{
 }
 .left{
     width: 250px;
-    height: 85vh;
+    height: 130vh;
     border: 1px solid blue;
     background: blue;
     float: left;
@@ -38,11 +41,30 @@ header{
     list-style: none;
     color: aliceblue;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.linha1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px; 
+}
+.card{
+    
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow:2px -2px 2px 2px #ccc;
+}
 .card1{
-    border: 1px solid black;
-    width: 250px;
-    height: 280px;
-    float: left;
-    padding: 20px;
-    margin: 10px;
+    width: 200px;
+    height: 290px;
+    
+}
+.fonte{
+    text-align: center;
+    font-weight: bold;
 }

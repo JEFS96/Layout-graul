@@ -1,82 +1,125 @@
-*{ 
-    padding: 0;
+/* Configurações Gerais  */
+
+* {
     margin: 0;
+    padding: 0;
 }
-body{
-    font-family: trebuchet MS, Arial, Helvetica, sans-serif;
+
+body {
+    font-family: "Trebuchet MS", "Helvetica Neue", sans-serif;
+    overflow-x: hidden;
+
 }
-.header{
-    height: 20%;
-    padding: 10px;
-    background: purple;
-    border: 1px solid purple;
-    margin: 0 auto;
-}
-.header-name{
-    
-    text-decoration: none;
-    text-align: center;
-    
-}
-.logo{
-    color: aliceblue;
-    
-}
-.left{
-    width: 250px;
-    height: 125vh;
-    border: 1px solid blue;
-    background: blue;
-    float: left;
-    font-size: 25px;
-}
-.A{
-    color: white;
-    text-decoration: none;
-}
-.tabela{
-    font: 40px ;
-    padding: 15px;
-    margin:20px;
-    list-style: none;
-    color: aliceblue;
-}
-.container{
-    height: 60%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.linha1{
-    display: flex;
-    flex-direction: row;
-    padding: 10px; 
-}
-.card{
-    width: 200px;
-    height: 300px;
-    margin: 15px;
-    padding: 15px;
-    box-shadow:2px -2px 2px 2px #ccc;
-}
-.card1{
-    width: 200px;
-    height: 290px;   
-}
-.fonte{
-    text-align: center;
-    font-weight: bold;
-}
-.footer{
-    border-radius: 2px;
-    position: absolute;
-    background-color: #ccc;
+
+img {
     width: 100%;
-    height: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Configurações topo */
+
+#topo {
+    background: purple;
+    line-height: 8vh;
     text-align: center;
-    line-height: 50px;
-    color: blueviolet;
-    
-    
-    
+}
+
+#topo a {
+    color: #fff;
+}
+
+/* Configurações Container */
+
+#container {
+    width: 100vw;
+    float: left;
+}
+
+/* Configurações Menu Lateral */
+
+#menu_lateral {
+    float: left;
+    background: blue;
+    width: 20vw;
+    height: 120vh;
+    padding: 0;
+
+}
+
+#menu_lateral ul {
+    height: 50%;
+    padding: 0;
+    list-style: none;
+}
+
+#menu_lateral ul li {
+   padding: 15px;
+    text-align: center;
+    line-height: 35px;
+
+}
+
+#menu_lateral ul li a {
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+}
+
+#menu_lateral li a:hover {
+    background: rgb(95, 77, 253);
+    color: #fff;
+    border-radius: .5em;
+}
+
+/* Configurações Conteúdo */
+
+#conteudo {
+    float: left;
+    width: 820px;
+    margin: 50px 20px 25px 150px;
+}
+
+.card {
+    float: left;
+    width: 200px;
+    height: 296px;
+    margin: 20px;
+    box-shadow: 10px 5px 4px rgb(151, 151, 151);
+    text-align: center;
+}
+
+.card p {
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color: #000;
+}
+
+.card:hover {
+    text-decoration: underline;
+}
+
+.card1 img {
+    width: 100%;
+    height: 296px;
+}
+
+
+
+
+
+/* Configurações Footer */
+
+
+
+#rodape {
+    clear: both;
+    line-height: 80px;
+    text-align: center;
+    background: #ccc;
 }
